@@ -7,7 +7,7 @@ Table of Contents:
 * Introduction
 * Configuring the application
 * Running the application
-* Use the Application
+* Using the Application
 * Running Unit and Integration Tests
 * Used Technologies
 * External aws Services
@@ -16,7 +16,7 @@ Table of Contents:
 
 Introduction:
 -------------
-This is and RESTFull API application that has been created according to the specified requrements. It integrates with 3 aws servises in order to provide the service of uploading images of type jped or png with maximum size 500 KB (512000 B) into S3 bucket, and save images data into RDS server, and synced the information with aws ES service. In addition to search for images using the ES service with specific filters.
+This is and RESTFull API application for uploading and searching for. It integrates with 3 aws servises in order to provide the service of uploading images of type jped or png with maximum size 500 KB (512000 B) into S3 bucket, and save images data into RDS server, and synced the information with aws ES service. In addition to search for images using the ES service with specific filters.
 
 
 Configuring the application:
@@ -42,7 +42,7 @@ There are two modes in running this application:
 1. Debug mode: This can be done by Visual Studio or any other IDE. I used VS 2019 for building this application. Open Visual Studio as administrator and open the solution of this application exists in the root folder of the linked zip file (you need to extract the files first from the zip file). This mode will allow you to see the code and to run the included unit and integration tests
 2. Release mode: This can be done by navigating to "\ImageStorage\ImageStorage\bin\Release\netcoreapp3.1" locatin from the root folder of the application (after unzip the linked file) and run "ImageStorage" file wither by double clicking it or from the cmd. The application URL is https://localhost:5001/ (This is configurable).
 
-Use the Application:
+Using the Application:
 --------------------
 You can use the tests in the Assets folder. The URL or these tests have been modified to call the application using port 5001
 
@@ -50,7 +50,7 @@ You can use the tests in the Assets folder. The URL or these tests have been mod
 Running Unit and Integration Tests:
 -----------------------------------
 1. Open the solution in VS 2019
-2. Open the Test Explorer sindow
+2. Open the Test Explorer window
 3. Click: "Run All Tests In View" button
 
 
@@ -67,7 +67,7 @@ External aws Services:
 ------------------
 1. S3 service for saving the uploaded images physically
 2. RDS DB server using MS SQL Server to save the images data
-3. ES service for searching for images in the already apluaded by the application
+3. ES service for searching for images already apluaded by the application
 
 
 Application Projects:
