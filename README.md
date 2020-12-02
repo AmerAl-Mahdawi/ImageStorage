@@ -25,6 +25,7 @@ Configuring the application:
 
     [default]
     aws_access_key_id=AKIAIOSFODNN7EXAMPLE
+    
     aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 
     And the region should be saved in "%HOMEPATH%/.aws/config" file, example:
