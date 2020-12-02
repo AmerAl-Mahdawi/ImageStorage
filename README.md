@@ -24,12 +24,17 @@ Configuring the application:
 1. S3 creadentials should be saved in "%HOMEPATH%/.aws/credentials" file, example:
 
     [default]
+    
     aws_access_key_id=AKIAIOSFODNN7EXAMPLE
     
     aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 
+
+
     And the region should be saved in "%HOMEPATH%/.aws/config" file, example:
+    
     [default]
+    
     region = ca-central-1 
 
     For more information, please check: "https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html"
