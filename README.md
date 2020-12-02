@@ -42,15 +42,9 @@ Configuring the application:
 2. "appsettings.json": this file includes the DB connectionstring, and other aws services configurations.
 
 
-Running the application:
-------------------------
-There are two modes in running this application:
-1. Debug mode: This can be done by Visual Studio or any other IDE. I used VS 2019 for building this application. Open Visual Studio as administrator and open the solution of this application exists in the root folder of the linked zip file (you need to extract the files first from the zip file). This mode will allow you to see the code and to run the included unit and integration tests
-2. Release mode: This can be done by navigating to "\ImageStorage\ImageStorage\bin\Release\netcoreapp3.1" locatin from the root folder of the application (after unzip the linked file) and run "ImageStorage" file wither by double clicking it or from the cmd. The application URL is https://localhost:5001/ (This is configurable).
-
 Using the Application:
 --------------------
-You can use the tests in the Assets folder. The URL or these tests have been modified to call the application using port 5001
+You can use the tests in the Assets folder.
 
 
 Running Unit and Integration Tests:
